@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Athenian Computer Science',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'At the intersection of technology and the liberal arts',
   url: 'https://https://athenian-cs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,15 +36,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Athenian',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -93,7 +93,7 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Athenian-Computer-Science/athenian-cs',
             label: 'GitHub',
             position: 'right',
           },
@@ -149,7 +149,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Athenian-Computer-Science/athenian-cs',
               },
             ],
           },
