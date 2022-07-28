@@ -1,3 +1,13 @@
+# Setup with stackblitz.com
+
+1. Open this url: https://stackblitz.com/github.com/Athenian-Computer-Science/athenian-cs
+2. Click on the `Fork` button (upper left)
+3. Click on the `Connect repository` button
+4. Click on `import an existing repository`
+5. Enter the URL of the Athenian-CS website: `https://github.com/Athenian-Computer-Science/athenian-cs`
+6. Click on `Import repository`
+7. Make changes and click on `Commit`
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
