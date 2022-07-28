@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Athenian Computer Science',
+  title: 'Athenian Computer Science Test',
   tagline: 'At the intersection of technology and the liberal arts',
   url: 'https://https://athenian-cs.netlify.app',
   baseUrl: '/',
@@ -90,7 +90,7 @@ const config = {
           {
             label: 'Blog',
             to: '/blog',
-            position: 'left'
+            position: 'left',
           },
           {
             href: 'https://github.com/Athenian-Computer-Science/athenian-cs',
