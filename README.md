@@ -6,7 +6,8 @@
 4. Click on `import an existing repository`
 5. Enter the URL of the Athenian-CS website: `https://github.com/Athenian-Computer-Science/athenian-cs`
 6. Click on `Import repository`
-7. Make changes and click on `Commit`
+7. Customize the name of your repo on stackblitz.com by clicking on the open lock button (center top)
+8. Make changes and click on `Commit`
 
 # Website
 
