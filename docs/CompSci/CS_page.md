@@ -1,4 +1,6 @@
 # Welcome to Computer Science!
 
 ### Topics
-* [Intro to Python](src/pages/python_intro.md)
+* [Intro to Python](python_intro.md)
+
+

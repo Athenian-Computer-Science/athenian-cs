@@ -72,7 +72,7 @@ const config = {
           {
             label: 'Intro to CS',
             type: 'doc',
-            docId: 'CS_page',
+            docId: 'CompSci/CS_page',
             position: 'left',
           },
           {
@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: 'Intro to CS',
-                to: '/docs/CS_page',
+                to: '/docs/CompSci/CS_page',
               },
               {
                 label: 'APCS',
