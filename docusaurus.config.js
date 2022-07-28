@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Athenian Computer Science',
   tagline: 'At the intersection of technology and the liberal arts',
-  url: 'https://https://athenian-cs.netlify.app',
+  url: 'https://athenian-cs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
