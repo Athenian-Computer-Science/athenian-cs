@@ -1,4 +1,4 @@
-# Setup with stackblitz.com
+# Configuring stackblitz.com
 
 1. Open this url: https://stackblitz.com/github.com/Athenian-Computer-Science/athenian-cs
 2. Click on the `Fork` button (upper left)
