@@ -29,6 +29,10 @@ const sidebars = {
         },
         {
           type: 'doc',
+          id: 'CompSci/strings'
+        },
+        {
+          type: 'doc',
           id: 'CompSci/booleans_conditionals'
         }
       ],
