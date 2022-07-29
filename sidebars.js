@@ -25,11 +25,11 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'python_intro'
+          id: 'CompSci/python_intro'
         },
         {
           type: 'doc',
-          id: 'booleans_conditionals'
+          id: 'CompSci/booleans_conditionals'
         }
       ],
     },
