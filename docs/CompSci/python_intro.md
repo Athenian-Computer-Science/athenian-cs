@@ -8,10 +8,10 @@ Hello world!
 >>> print('Hello world!')
 Hello world!
 ```
-<iframe src="https://trinket.io/embed/python/8afb24538f" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/8afb24538f?runOption=console" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-* Hello world is called a string and needs quotes - single or double.
+* Hello world is called a string and needs quotes - single `' '` or double `" "`.
 * print() is a pre-defined Python function that displays arguments on the screen.
 * Whitespace doesn't matter except indentations. Single spaces between operators is convention.
 
