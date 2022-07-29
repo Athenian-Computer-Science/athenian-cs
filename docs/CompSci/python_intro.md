@@ -1,26 +1,44 @@
 # Introduction to Python
 ## Hello world
-Use the command line for these.
 
+We'll start our Python journey by having a message of your choice print to the screen. A popular phrase for 
+beginning programmers is "Hello world!" - but you can choose any phrase you wish.
+
+In order to display characters on the screen (letters, words, numbers, etc), we need to use the `print()` function. 
+Note that there is no space between the keyword `print` and the parentheses. The information that goes inside the 
+parentheses 
+is called the argument. In this case, the argument will be the phrase that we want to print, surrounded by quotation 
+marks.
+
+In the window below, we'll see the phrase "Hello world!" printed to the screen. On the next line, type the print 
+statement again, using single quotes (' ') to surround the phrase. Press Enter/Return on your keyboard to execute 
+your new print statement.
+
+
+Example:
 ```python
 >>> print("Hello world!")
 Hello world!
 >>> print('Hello world!')
 Hello world!
 ```
+
 <iframe src="https://trinket.io/embed/python/8afb24538f?runOption=console" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-
+**Important Notes:**
 * Hello world is called a string and needs quotes - single `' '` or double `" "`.
 * print() is a pre-defined Python function that displays arguments on the screen.
-* Whitespace doesn't matter except indentations. Single spaces between operators is convention.
+* Whitespace doesn't matter in Python, except indentations. Single spaces between operators is convention. (See 
+  below - and feel free to try it in the console above!.)
 
 ```
 >>> 2 + 2
 4
 ```
 ## Comments
-Comments let you leave notes, too!
+Comments let you leave notes in your program. They are ignored by the computer, but they can be useful for reminding 
+yourself what you were doing when you wrote the code and for helping other people understand your code. You should 
+get in the habit of using comments to explain your code, even for simple programs.
 ```
 >>> 2 + 2    # This is an expression. 2 is a value, + is an operator.
 4           # The expression evaluates to 4
@@ -183,17 +201,17 @@ Examples:
 Adding numbers together computes the sum of those numbers. Adding strings together sticks them together.
 
 ```
->>> print()'Hello' + 'world')
+>>> print('Hello' + 'world')
 Helloworld
 ```
 
 Note the strings are stuck to each other with no space. If you want a space you can include it as part of a string or you can use separate the strings with a comma. (There are other options, too.) How you do it will depend on what you are doing.
 
 ```
->>> print()'Hello ' + 'world')    # added space at the end of Hello
+>>> print('Hello ' + 'world')    # added space at the end of Hello
 Hello world
 
->>> print()'Hello' , 'world')    #    printed each string in sequence
+>>> print('Hello' , 'world')    #    printed each string in sequence
 Hello world
 ```
 
