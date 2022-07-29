@@ -2,13 +2,13 @@
 ## Hello world
 Use the command line for these.
 
-```
+```python
 >>> print("Hello world!")
 Hello world!
 >>> print('Hello world!')
 Hello world!
 ```
-<iframe src="https://trinket.io/embed/python/8afb24538f" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/8afb24538f" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 * Hello world is called a string and needs quotes - single or double.
