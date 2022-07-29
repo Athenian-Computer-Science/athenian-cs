@@ -21,7 +21,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Tutorial',
+      label: 'Computer Science',
       items: [
         {
           type: 'doc',
