@@ -7,7 +7,7 @@ String data is always treated as text by the program, even if it contains numeri
 
 ### Printing strings
 As you have already seen, strings can be printed using the `print()` function:
-```python live
+```python
 print("Hello world!")
 print('Hello Python!')
 ```
