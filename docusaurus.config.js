@@ -159,6 +159,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ["kotlin", "java", "python"],
       },
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
