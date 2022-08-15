@@ -193,27 +193,27 @@ const config = {
         respectPrefersColorScheme: false,
       },
 
-      algolia: {
-        // The application ID provided by Algolia
-        appId: '09LBSMLHQG',
-
-        // Public API key: it is safe to commit it
-        apiKey: '9ee3b89159930ff5c89432aa5c0fba80',
-
-        indexName: 'athenian-cs.org',
-
-        // Optional: see doc section below
-        contextualSearch: true,
-
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
-
-        // Optional: Algolia search parameters
-        searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-      },
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: '09LBSMLHQG',
+      //
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '9ee3b89159930ff5c89432aa5c0fba80',
+      //
+      //   indexName: 'athenian-cs.org',
+      //
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
+      //
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: 'athenian-cs\\.org',
+      //
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
+      //
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
+      // },
 
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
