@@ -1,6 +1,6 @@
 start:
-	yarn start
+	npm start
 
 
 build:
-	yarn build
+	npm build

@@ -68,29 +68,41 @@ const config = {
         },
         items: [
           {
-            label: 'Computational Thinking',
+            label: 'Classes',
             type: 'doc',
             docId: 'intro',
             position: 'left',
           },
           {
-            label: 'Intro to CS',
-            type: 'doc',
-            docId: 'CompSci/CS_page',
+            to: '/additional/support',
+            label: 'Additional',
             position: 'left',
+            activeBaseRegex: `/additional/`,
           },
-          {
-            label: 'APCS',
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-          },
-          {
-            label: 'Data Structures and Algorithms',
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-          },
+          // {
+          //   label: 'Computational Thinking',
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          // },
+          // {
+          //   label: 'Intro to CS',
+          //   type: 'doc',
+          //   docId: 'CompSci/CS_page',
+          //   position: 'left',
+          // },
+          // {
+          //   label: 'APCS',
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          // },
+          // {
+          //   label: 'Data Structures and Algorithms',
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          // },
           {
             label: 'Blog',
             to: '/blog',
@@ -111,19 +123,19 @@ const config = {
             items: [
               {
                 label: 'Computational Thinking',
-                to: '/docs/intro',
+                to: '/docs/ct/summary',
               },
               {
                 label: 'Intro to CS',
-                to: '/docs/CompSci/CS_page',
+                to: '/docs/intro/summary',
               },
               {
                 label: 'APCS',
-                to: '/docs/intro',
+                to: '/docs/apcs/summary',
               },
               {
                 label: 'Data Structures and Algorithms',
-                to: '/docs/intro',
+                to: '/docs/dsalgs/summary',
               },
             ],
           },
@@ -185,6 +197,28 @@ const config = {
 
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
+    plugins: [
+      [
+        'content-docs',
+        /** @type {import('@docusaurus/plugin-content-docs').Options} */
+        ({
+          id: 'additional',
+          path: 'additional',
+          routeBasePath: 'additional',
+          editUrl: ({locale, versionDocsDirPath, docPath}) => {
+            if (locale !== 'en') {
+              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+            }
+            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
+          },
+          //remarkPlugins: [npm2yarn],
+          editCurrentVersion: true,
+          sidebarPath: require.resolve('./sidebarsAdditional.js'),
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        }),
+      ],
+    ],
 };
 
 module.exports = config;
