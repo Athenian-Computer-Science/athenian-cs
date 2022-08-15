@@ -21,6 +21,7 @@ function HomepageHeader() {
         {/*    Docusaurus Tutorial - 5min ⏱️*/}
         {/*  </Link>*/}
         {/*</div>*/}
+        <img src="img/main-hall.png" alt="Main Hall" width="300" />
       </div>
     </header>
   );

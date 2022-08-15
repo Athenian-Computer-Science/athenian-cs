@@ -57,10 +57,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Athenian',
+        title: 'Athenian CS',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Athenian CS Website',
+          src: 'img/athenian-logo.png',
+          width: 32,
+          height: 32,
+          //className: 'custom-navbar-logo-class',
+          //style: {border: 'solid red'},
         },
         items: [
           {
@@ -170,6 +174,15 @@ const config = {
       //   textColor: 'white',
       //   isCloseable: false,
       // },
+
+      // Use this to disable the color switch option in the header.
+      // see: https://docusaurus.io/docs/api/themes/configuration#color-mode---dark-mode
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
+
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
 };
