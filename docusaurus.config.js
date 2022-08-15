@@ -36,15 +36,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Athenian-Computer-Science/athenian-cs/blob/master',
+          editUrl: 'https://github.com/Athenian-Computer-Science/athenian-cs/blob/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Athenian-Computer-Science/athenian-cs/blob/master',
+          editUrl: 'https://github.com/Athenian-Computer-Science/athenian-cs/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -195,6 +193,28 @@ const config = {
         respectPrefersColorScheme: false,
       },
 
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '09LBSMLHQG',
+
+        // Public API key: it is safe to commit it
+        apiKey: '9ee3b89159930ff5c89432aa5c0fba80',
+
+        indexName: 'athenian-cs.org',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+      },
+
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
     plugins: [
@@ -205,12 +225,7 @@ const config = {
           id: 'additional',
           path: 'additional',
           routeBasePath: 'additional',
-          editUrl: ({locale, versionDocsDirPath, docPath}) => {
-            if (locale !== 'en') {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
-            }
-            return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
-          },
+          editUrl: 'https://github.com/Athenian-Computer-Science/athenian-cs/blob/master',
           //remarkPlugins: [npm2yarn],
           editCurrentVersion: true,
           sidebarPath: require.resolve('./sidebarsAdditional.js'),
