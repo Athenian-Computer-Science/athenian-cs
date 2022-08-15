@@ -161,6 +161,14 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ["kotlin", "java", "python"],
       },
+      // Use this to enable an announcement.
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content: 'This is an important announcement',
+      //   backgroundColor: 'red',
+      //   textColor: 'white',
+      //   isCloseable: false,
+      // },
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
 };
