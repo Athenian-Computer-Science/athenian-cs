@@ -162,6 +162,7 @@ const config = {
         additionalLanguages: ["kotlin", "java", "python"],
       },
       // Use this to enable an announcement.
+      // see: https://docusaurus.io/docs/api/themes/configuration#announcement-bar
       // announcementBar: {
       //   id: 'support_us',
       //   content: 'This is an important announcement',
