@@ -72,10 +72,10 @@ const config = {
             position: 'left',
           },
           {
-            to: '/additional/support',
-            label: 'Additional',
+            to: '/projects/summary',
+            label: 'Student Projects',
             position: 'left',
-            activeBaseRegex: `/additional/`,
+            activeBaseRegex: `/projects/`,
           },
           // {
           //   label: 'Computational Thinking',
@@ -222,13 +222,13 @@ const config = {
         'content-docs',
         /** @type {import('@docusaurus/plugin-content-docs').Options} */
         ({
-          id: 'additional',
-          path: 'additional',
-          routeBasePath: 'additional',
+          id: 'projects',
+          path: 'projects',
+          routeBasePath: 'projects',
           editUrl: 'https://github.com/Athenian-Computer-Science/athenian-cs/blob/master',
           //remarkPlugins: [npm2yarn],
           editCurrentVersion: true,
-          sidebarPath: require.resolve('./sidebarsAdditional.js'),
+          sidebarPath: require.resolve('./sidebarsProjects.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         }),
